@@ -17,11 +17,13 @@ header {
 h1 {
     background-color: #4A6163;
     color: #F17A7E;
+    font-size: 200%;
 }
 
 /* Code for the cover image */
 img {
     max-width: 780px;
+    margin: 3px 0;
 }
 
 .cover {
@@ -30,11 +32,15 @@ img {
 }
 
 /* Code for the body */
+
 .wrapper {
+    margin: 10px auto;
+    max-width: 780px;
     display: grid;
     grid-gap: 6px;
     grid-template-columns: [col] 1fr [col] 1fr [col] 1fr;
     grid-template-rows: auto;
+    border: 1px solid black;
 }
 
 .box {
@@ -53,6 +59,12 @@ img {
 
 section {
     border: 1px solid blue;
+}
+
+/* Code for the content in the body */
+
+h2 {
+    font-size: 150%;
 }
 
 /* Code for the footer */
