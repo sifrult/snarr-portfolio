@@ -72,6 +72,10 @@ img {
     background-color: #E7EAD1;
 }
 
+.content > p {
+    background-color: #E7EAD1;
+}
+
 section {
     border: 1px solid blue;
 }
@@ -88,13 +92,4 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.footer > p {
-    background-color: #E7EAD1;
-}
-
-@media screen and (max-width: 768px) {
-    h1 {
-
-    }
 }
