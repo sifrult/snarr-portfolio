@@ -18,6 +18,7 @@ h1 {
     background-color: #4A6163;
     color: #F17A7E;
     font-size: 200%;
+    padding-left: 8%;
 }
 
 /* Code for the cover image */
@@ -70,4 +71,10 @@ h2 {
 /* Code for the footer */
 footer {
     border: 1px solid purple;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 160%;
+    }
 }
