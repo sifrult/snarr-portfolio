@@ -6,18 +6,32 @@
 /* Code for the header */
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #4A6163;
     color: #F9FAF4;
-    justify-content: space-between;
     align-items: center;
     height: 50px;
     padding: 0 20px;
+    font-size: 80%;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4A6163;
+
+    width: 250px;
+}
+
+header > div > p {
+    background-color: #4A6163;
 }
 
 h1 {
     background-color: #4A6163;
     color: #F17A7E;
-    font-size: 200%;
+    font-size: 250%;
     padding-left: 8%;
 }
 
@@ -69,12 +83,18 @@ h2 {
 }
 
 /* Code for the footer */
-footer {
-    border: 1px solid purple;
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer > p {
+    background-color: #E7EAD1;
 }
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 160%;
+
     }
 }
