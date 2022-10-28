@@ -3,9 +3,8 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+/* Code for the header */
 header {
-    position: sticky;
-    top: 0px;
     display: flex;
     background-color: #4A6163;
     color: #F9FAF4;
@@ -13,17 +12,24 @@ header {
     align-items: center;
     height: 50px;
     padding: 0 20px;
-
 }
+
 h1 {
     background-color: #4A6163;
     color: #F17A7E;
 }
 
+/* Code for the cover image */
 img {
-    max-width: 100%;
+    max-width: 780px;
 }
 
+.cover {
+    display: flex;
+    justify-content: center;
+}
+
+/* Code for the body */
 .wrapper {
     display: grid;
     grid-gap: 6px;
@@ -49,6 +55,7 @@ section {
     border: 1px solid blue;
 }
 
+/* Code for the footer */
 footer {
     border: 1px solid purple;
 }
