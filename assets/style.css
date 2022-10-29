@@ -52,7 +52,7 @@ img {
 
 .wrapper {
     margin: 10px auto;
-    max-width: 780px;
+    max-width: 820px;
     display: grid;
     grid-gap: 6px;
     grid-template-columns: [col] 1fr [col] 1fr [col] 1fr;
@@ -78,13 +78,50 @@ img {
     background-color: #E7EAD1;
 }
 
-section {
-    border: 1px solid blue;
-}
-
 h2 {
     font-size: 150%;
 }
+
+/* Links format */
+
+a {
+    background-image: linear-gradient(
+      to right,
+      #F17A7E,
+      #F17A7E 50%,
+      #E7EAd1 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+  }
+
+  a:before {
+    content: '';
+    background: #F17A7E;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  a:hover {
+   background-position: 0;
+   font-weight: bold;
+  }
+
+  a:hover::before {
+    width:100%;
+  }
 
 /* Code for the work content in the body */
 
@@ -92,8 +129,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5px;
-}
+  }
 
 .card {
     margin: 1%;
