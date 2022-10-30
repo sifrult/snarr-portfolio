@@ -70,16 +70,31 @@ a {
 
 h2 {
     text-align: center;
-    margin: 5px;
+    margin: 6px auto;
+    max-width: fit-content;
+    border-bottom: 1px dashed #FFC94B;
+    color: #F9A66C;
+}
+
+#profile-img {
+    border-radius: 50%;
 }
 
 .content {
     text-align: center;
 }
 
+#bio {
+    line-height: 1.5;
+    color: #4A6163;
+    font-style: italic;
+}
+
 .footer {
     display: flex;
     justify-content: space-around;
+    color: #4A6163;
+    font-style: italic;
 }
 
 /* Code for the header
