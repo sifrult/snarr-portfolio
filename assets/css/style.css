@@ -29,7 +29,7 @@
     background-color: #4A6163;
 }
 
-.header-links > p {
+.header-links li {
     background-color: #4A6163;
 }
 
@@ -58,7 +58,7 @@ h1 {
     margin: 10px;
 }
 
-.header-links > p > a {
+.header-links li a {
     text-decoration: none;
     background-color: transparent;
     color: #F9FAF4;
@@ -197,4 +197,19 @@ h2 {
     .content {
         width: 70%;
     }
+h1 {
+    align-self: center;
+}
+
+    .header-links {
+        display: flex;
+        margin-right: auto;
+        flex-grow: 1;
+        justify-content: space-around;
+        align-items: center
+    }
+
+    .header-links li {
+
+    ;}
 }
