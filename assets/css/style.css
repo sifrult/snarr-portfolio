@@ -104,7 +104,7 @@ h2 {
 /* Work cards */
 
 .card {
-    width: 98%;
+    width: 100%;
     height: 100px;
     margin-bottom: 5px;
 }
@@ -151,12 +151,50 @@ h2 {
     font-weight: bold;
 }
 
+@media screen and (min-width: 600px){
+    .work > .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+
+    .card {
+            width: 49.8%;
+        }
+
+    .first{
+        flex: 2 0 100%;
+    }
+
+    .card-a .card-b .card-c .card-d {
+        flex: 1 1 50%;
+    }
+
+    }
 
 @media screen and (min-width: 900px){
     .header-img {
-    width: 880px;
+
     height: 215px;
     padding-top: 0;
-    margin: 0 auto;
+
+    }
+
+    .wrapper {
+        width: 880px;
+        margin: 0 auto;
+    }
+
+    .box {
+        display: flex;
+    }
+
+    .sidebar {
+        width: 30%;
+    }
+
+    .content {
+        width: 70%;
     }
 }
