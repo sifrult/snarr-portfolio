@@ -3,6 +3,8 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+/* Code for the body */
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -11,9 +13,19 @@
 
 .box {
     width: 100%;
+    padding: 3px;
 }
 
+/* Code for the header */
+
 .header {
+    background-color: #4A6163;
+    height: 65px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
     background-color: #4A6163;
 }
 
@@ -23,6 +35,10 @@
 
 h1 {
     background-color: #4A6163;
+    font-size: 200%;
+    text-align: center;
+    padding: 4px;
+    color: #F17A7E;
 }
 
 .header-img {
@@ -34,6 +50,14 @@ h1 {
 
 .header-img > p {
     background-color: transparent;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #F9FAF4;
 }
 
 /* Code for the header
@@ -138,12 +162,13 @@ a {
     display: inline-block;
     padding: 5px 0;
     position: relative;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
     font-weight: bold;
-  }
+}
 
-  a:before {
+a:before {
     content: '';
     background: #F17A7E;
     display: block;
@@ -153,16 +178,16 @@ a {
     width: 0;
     height: 3px;
     transition: all 0.3s ease-in-out;
-  }
+}
 
-  a:hover {
+a:hover {
    background-position: 0;
    font-weight: bold;
-  }
+}
 
-  a:hover::before {
+a:hover::before {
     width:100%;
-  }
+}
 
 /* Code for the work content in the body
 
