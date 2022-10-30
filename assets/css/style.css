@@ -1,8 +1,39 @@
-/*
-
 * {
     background-color: #F9FAF4;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+}
+
+.header {
+    background-color: #4A6163;
+}
+
+.header-links > p {
+    background-color: #4A6163;
+}
+
+h1 {
+    background-color: #4A6163;
+}
+
+.header-img {
+    background-image: url("../../assets/images/header-img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.header-img > p {
+    background-color: transparent;
 }
 
 /* Code for the header
