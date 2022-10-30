@@ -50,6 +50,12 @@ h1 {
 
 .header-img > p {
     background-color: transparent;
+    font-weight: bold;
+    color: #4A6163;
+    max-width: fit-content;
+    position: relative;
+    left: 280px;
+    top: 70px;
 }
 
 /* Links */
@@ -58,6 +64,22 @@ a {
     text-decoration: none;
     background-color: transparent;
     color: #F9FAF4;
+}
+
+/* Code for content areas */
+
+h2 {
+    text-align: center;
+    margin: 5px;
+}
+
+.content {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Code for the header
