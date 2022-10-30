@@ -73,6 +73,7 @@ h1 {
 /* Code for content areas */
 
 h2 {
+    font-size: 150%;
     text-align: center;
     margin: 6px auto;
     max-width: fit-content;
@@ -88,7 +89,7 @@ h2 {
     text-align: center;
 }
 
-#bio {
+.about-me .content > p {
     line-height: 1.5;
     color: #4A6163;
     font-style: italic;
@@ -99,6 +100,7 @@ h2 {
     justify-content: space-around;
     color: #4A6163;
     font-style: italic;
+    padding-bottom: 20px;
 }
 
 /* Work cards */
@@ -171,6 +173,11 @@ h2 {
         flex: 1 1 50%;
     }
 
+    h2 {
+        font-size: 200%;
+        border-bottom: 2px dashed #FFC94B;
+    }
+
     }
 
 @media screen and (min-width: 900px){
@@ -192,14 +199,17 @@ h2 {
 
     .sidebar {
         width: 30%;
+        border-right: 2px dashed #FFC94B;
     }
 
     .content {
         width: 70%;
+        margin-left: 10px;
     }
-h1 {
-    align-self: center;
-}
+
+    h1 {
+        align-self: center;
+    }
 
     .header-links {
         display: flex;
@@ -209,7 +219,23 @@ h1 {
         align-items: center
     }
 
-    .header-links li {
+    h2 {
+        border-bottom: none;
+        max-width: none;
+        text-align: right;
+        margin-right: 10px;
 
-    ;}
+    }
+
+    .about-me .content img {
+        float: left;
+        shape-outside: circle();
+        height: 140px;
+        margin-right: 20px;
+    }
+
+    .about-me .content > p {
+        text-align: left;
+
+    }
 }
