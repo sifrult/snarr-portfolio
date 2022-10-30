@@ -148,6 +148,12 @@ a {
 
 .first {
     width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+.first-txt {
+    padding: 50px;
 }
 
 /* Code for the footer */
