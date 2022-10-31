@@ -56,6 +56,7 @@ h1 {
     color: #4A6163;
     max-width: fit-content;
     margin: 10px;
+    font-size: 150%;
 }
 
 .header-links li a {
@@ -95,7 +96,6 @@ h2 {
     font-style: italic;
 }
 
-
 .footer-links {
     display: flex;
     justify-content: space-around;
@@ -104,6 +104,11 @@ h2 {
     font-style: italic;
     margin: 0;
     height: 50px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #4A6163;
 }
 
 /* Work cards */
@@ -181,14 +186,20 @@ h2 {
         border-bottom: 2px dashed #FFC94B;
     }
 
+    .header-img > p {
+        font-size: 170%;
+    }
+
     }
 
 @media screen and (min-width: 900px){
     .header-img {
+        height: 215px;
+        padding-top: 0;
+    }
 
-    height: 215px;
-    padding-top: 0;
-
+    .header-img > p {
+        font-size: 190%;
     }
 
     .wrapper {
